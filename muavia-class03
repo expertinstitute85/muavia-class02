@@ -1,0 +1,31 @@
+tml Tables With Javascript</h1>
+
+    <script>
+
+         let names = ["Name","Father Name", "Contact Number ", "CNIC Number","Address","email","Date of Birthday","City"];
+         let ages =  ["Muavia shams","Qazi shams","03292564851","42401-1475651-5","House:1725/4089","muawiashams gamil@","1-1-2008"
+         ,"Karachi"];
+
+        document.write("<table border ='50'>");
+
+       
+          for (let i = 0; i < 8; i++) {
+            document.write("<tr>");
+
+            document.write("<td>");
+            document.write(names[i]);
+            document.write("</td>");
+
+            document.write("<td>");
+            document.write(ages[i]);
+            document.write("</td>");
+
+            document.write("</tr>");
+
+        }
+
+        document.write("</table>")
+    </script>
+</head>
+<body>
+    
