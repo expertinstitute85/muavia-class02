@@ -3,7 +3,7 @@ tml Tables With Javascript</h1>
     <script>
 
          let names = ["Name","Father Name", "Contact Number ", "CNIC Number","Address","email","Date of Birthday","City"];
-         let ages =  ["Muavia shams","Qazi shams","111111111111","42401-1475651-5","House:1725/4089","muawiashams gamil@","1-1-2008"
+         let ages =  ["Muavia shams","Qazi shams","000000000000","42401-1475651-5","House:1725/4089","muawiashams gamil@","1-1-2008"
          ,"Karachi"];
 
         document.write("<table border ='50'>");
